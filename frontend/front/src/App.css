@@ -40,3 +40,216 @@
 .read-the-docs {
   color: #888;
 }
+
+.home {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Hero Section */
+.home-header {
+  position: relative;
+  background: url("/images/stationery-background.jpg") no-repeat center center/cover;
+  height: 80vh;
+  color: white;
+  text-align: center;
+}
+
+.hero-overlay {
+  background: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.hero-overlay h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero-overlay p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.shop-now-btn {
+  background: #ff6600;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.shop-now-btn:hover {
+  background: #e65c00;
+}
+
+/* About Section */
+.about-section {
+  padding: 40px 20px;
+  text-align: center;
+  background: #f4f4f4;
+}
+
+.about-section h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+/* Features Section */
+.features-section {
+  padding: 40px 20px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.feature {
+  text-align: center;
+  max-width: 300px;
+}
+
+.feature img {
+  max-width: 100px;
+  margin-bottom: 10px;
+}
+
+.feature h3 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.feature p {
+  font-size: 1rem;
+}
+
+/* Testimonial Section */
+.testimonials-section {
+  padding: 40px 20px;
+  background: #f4f4f4;
+}
+
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.testimonial {
+  text-align: center;
+  max-width: 500px;
+  font-style: italic;
+}
+
+.testimonial span {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Call to Action Section */
+.cta-section {
+  padding: 40px 20px;
+  text-align: center;
+  background: #ff6600;
+  color: white;
+}
+
+.cta-section h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.cta-section p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+/* login pages*/
+/* Login.css & Signup.css */
+
+/* Basic Container */
+.login-container, .signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+
+.login-card, .signup-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.login-header, .signup-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-button, .signup-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-button:hover, .signup-button:hover {
+  background-color: #e65c00;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.login-footer {
+  text-align: center;
+}
+
+.login-footer a {
+  color: #ff6600;
+  text-decoration: none;
+}
+
+.login-footer a:hover {
+  text-decoration: underline;
+}
+

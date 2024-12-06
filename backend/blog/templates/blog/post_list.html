@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Blog Posts</h1>
+    {% for post in posts%}
+    <h1>{{post.title}}</h1>
+    <p>{{post.content}}</p>
+   <h3>{{post.created_date}}</h3> 
+    {% endfor%}
+</body>
+</html>
